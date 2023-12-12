@@ -1,7 +1,6 @@
 body {
   font-family: Arial;
   background-color: #8f8f8f;
-  background-image: url(".img/vasco.png");
   padding: 30px;
   color: #333;
   background-position: center;
@@ -77,10 +76,27 @@ button:hover {
   padding-bottom: 40px;
 }
 
-input, select {
+input, 
+select {
   padding: 5px;
   margin-bottom: 10px;
   border: 1px solid #DDD;
   border-radius: 3px;
   width: 100%;
+}
+
+.filter, .search {
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
 }
